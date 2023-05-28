@@ -28,7 +28,7 @@ const Header = () => {
               className="collapse navbar-collapse justify-content-md-center"
               id="navbarCollapse"
           >
-            <ul className="navbar-nav mr-auto">
+            <ul className="navbar-nav mt-auto">
               <li className="nav-item">
                 <NavLink className="nav-link" to="/">
                   Home
