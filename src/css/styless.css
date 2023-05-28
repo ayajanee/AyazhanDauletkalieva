@@ -1,0 +1,131 @@
+.header .navbar-expand-md {
+  background: #2f343a; }
+
+.header .logo {
+  width: 34px;
+  height: 34px;
+  background: white;
+  margin-right: 2rem; }
+
+.header form input {
+  background: #171717; }
+
+.header .nav-link {
+  color: #fff;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem 1rem;
+  margin: 0; }
+
+.ability-button {
+  border: 1px solid #000000;
+  background: #c9c9c9;
+  height: 4rem;
+  width: 4rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer; }
+  .ability-button img {
+    height: 2.5rem;
+    width: 2.5rem;
+    filter: brightness(0); }
+
+.ability-button:not(:last-of-type) {
+  margin-right: 2rem; }
+
+.ability-info {
+  text-align: justify;
+  box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.03);
+  border: 1px solid #000000; }
+  .ability-info .image {
+    cursor: pointer;
+    width: 100%;
+    height: 256px;
+    object-fit: cover;
+    vertical-align: top;
+    border-radius: 5px 5px 0 0; }
+  .ability-info .name {
+    border-radius: 0 0 5px 5px;
+    padding: .50rem;
+    justify-content: center;
+    align-items: center;
+    display: flex; }
+    .ability-info .name img {
+      width: 30px;
+      height: 30px; }
+    .ability-info .name h4 {
+      margin-bottom: 0;
+      padding-left: 0.5rem; }
+  .ability-info p {
+    padding: 1rem;
+    border-top: 1px solid;
+    margin: 0; }
+
+.abilities {
+  margin: 2rem 0;
+  justify-content: center;
+  display: flex;
+  padding: 0;
+  list-style: none; }
+
+.agent-card {
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.03);
+  border: 1px solid; }
+  .agent-card .image {
+    cursor: pointer;
+    width: 100%;
+    height: 256px;
+    object-fit: cover;
+    vertical-align: top;
+    border-radius: 5px 5px 0 0; }
+  .agent-card .name {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border: 1px solid transparent;
+    border-top: none;
+    transition: 0.3s border;
+    background: #ff4655;
+    display: flex;
+    justify-content: space-between; }
+  .agent-card h3 {
+    padding-left: 1rem;
+    cursor: pointer;
+    margin-bottom: 0; }
+  .agent-card .role {
+    border-radius: 0 0 5px 5px;
+    background-color: #6c757d;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex; }
+    .agent-card .role img {
+      width: 34px;
+      height: 34px; }
+    .agent-card .role h4 {
+      margin-bottom: 0;
+      padding-left: 0.5rem; }
+  .agent-card button {
+    outline: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+    padding: auto; }
+
+.agent-list {
+  display: grid;
+  grid-row-gap: 2.3em;
+  grid-auto-flow: columns;
+  grid-column-gap: 66px;
+  grid-template-columns: repeat(auto-fill, 270px);
+  background: #f8f9fa;
+  justify-content: center;
+  padding: 3rem 0; }
+
+.container {
+  padding: 60px 15px 0; }

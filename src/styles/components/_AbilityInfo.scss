@@ -1,0 +1,36 @@
+.ability-info {
+  text-align: justify ;
+  box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.03);
+  border: 1px solid #000000;
+  .image {
+    cursor: pointer;
+    width: 100%;
+    height: 256px;
+    object-fit: cover;
+    vertical-align: top;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .name {
+      border-radius: 0 0 5px 5px;
+      padding: .50rem;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+      h4{ 
+        margin-bottom: 0;
+        padding-left: 0.5rem;
+      }
+    }
+
+    p {
+      padding: 1rem;
+      border-top: 1px solid;
+      margin: 0;
+    }
+  }
+  

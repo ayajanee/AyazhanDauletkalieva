@@ -1,0 +1,22 @@
+.ability-button {
+  border: 1px solid #000000;
+  background: rgb(201, 201, 201);
+  height: 4rem;
+  width: 4rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer;
+  
+  img {
+    height: 2.5rem;
+    width: 2.5rem;
+    filter: brightness(0);
+  }
+}
+
+.ability-button:not(:last-of-type) {
+  margin-right: 2rem;
+}

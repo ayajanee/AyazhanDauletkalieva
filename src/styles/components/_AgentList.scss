@@ -1,0 +1,10 @@
+.agent-list {
+  display: grid;
+  grid-row-gap: 2.3em;
+  grid-auto-flow: columns;
+  grid-column-gap: 66px;
+  grid-template-columns: repeat(auto-fill, 270px);
+  background: #f8f9fa;
+  justify-content: center;
+  padding: 3rem 0;
+}
